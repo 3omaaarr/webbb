@@ -204,5 +204,12 @@
           <span>2024      <strong>.</strong>      +18 <strong>.</strong>        Action</span>
         <button class="btn2">Watch Now</button>
     </div>
+    <script>
+        let username = sessionStorage.getItem("username");
+      
+        if (username) {
+            document.getElementById("usernameLink").textContent = username;
+        }
+      </script>
 </body>
 </html>

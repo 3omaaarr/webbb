@@ -205,5 +205,12 @@
           <span>2021      <strong>.</strong>      +16 <strong>.</strong>        Thriller</span>
         <button class="btn2">Watch Now</button>
     </div>
+    <script>
+        let username = sessionStorage.getItem("username");
+      
+        if (username) {
+            document.getElementById("usernameLink").textContent = username;
+        }
+      </script>
 </body>
 </html>
